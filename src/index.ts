@@ -1,5 +1,5 @@
 import { start } from "workflow/api";
-import { upsert } from "./workflows/index";
+import { upsert } from "./workflows";
 import express from "express";
 import cors from "cors";
 
