@@ -6,9 +6,10 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"types": ["node"],
-		"outDir": "./dist"
+		"types": ["node"]
 	},
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
+	"include": [
+		"**/*.ts"
+	]
 }
