@@ -1,4 +1,4 @@
-import { createState } from "./steps/createState.js";
+import { createState } from "./steps/createState";
 
 export async function upsert() {
     "use workflow";
